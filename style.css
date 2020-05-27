@@ -1,0 +1,98 @@
+body{
+	font-family: 'Quicksand', sans-serif;
+	text-rendering:optimizeLegibility;
+	font-size:1rem;
+	text-align:center;
+	background:linear-gradient(180deg, white, rgb(181, 171, 160), white)
+}
+
+#title{
+	font-size:3rem;
+	margin:20px 0 -15px 0;
+	font-weight:bolder;
+	
+}
+
+#lifespan{
+	margin: 20px 0px 30px 0px;
+	font-weight:bold;
+}
+
+#quote{
+	font-style:italic;
+	margin:-10px 0 30px 0;
+	
+}
+
+#img-div{
+	width:60rem;
+	position:relative;
+	margin:auto;
+	border-style:solid;
+	border-width:20px;
+	border-color:white;
+	background:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#image{
+	width:100%;	
+	max-width:1000px;
+	display:block;
+	margin:auto;
+}
+
+@media (max-width: 515px) {
+	*{font-size:8px;}
+	
+}
+
+#img-caption{
+position:relative;
+margin:5px,0px,0px,0px;
+top:7px;
+}
+
+#tribute-info{
+		text-align:left;
+		width:75rem;
+		margin:auto;
+		background:white;
+		padding:0.1rem;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#timelineheader{
+	text-align:center;
+	font-weight:bolder;
+}
+
+ul{
+	list-style:none;
+	padding:0;
+}
+
+/*timeline li  */
+li{
+	margin:2rem;
+}
+
+.links{
+	margin:0.2rem;
+}
+
+a:hover{
+	text-decoration:none;
+	color:yellow;
+}
+
+a:link{color:blue;}
+
+a:visited{
+	color:purple;
+}
+
+#credits{
+	font-style:italic;
+	font-size:14px;
+}
